@@ -23,3 +23,20 @@ faqs.forEach((faq) => {
     }
   });
 });
+
+// for testimonials swiper
+
+var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  // when window width is >= 780px
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+    },
+  },
+});
