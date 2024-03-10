@@ -490,7 +490,8 @@ footer ul li a:hover {
   /* ==================== HEADER ====================== */
   header {
     /* height: 52vh; */
-    height: auto;
+    /* height: auto; */
+    max-height: 100%;
     margin-bottom: 4rem;
   }
   .header__container {
